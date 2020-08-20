@@ -392,9 +392,9 @@
     .blockquote-footer::before {
       content: "\2014\00A0"; }
   
-  .img-fluid {
+  /* .img-fluid {
     max-width: 100%;
-    height: auto; }
+    height: auto; } */
   
   .img-thumbnail {
     padding: 0.25rem;
@@ -8492,8 +8492,8 @@
   .bg-primary {
     background: #d9bf77; }
   
-  .container {
-    max-width: 1240px; }
+  /* .container {
+    max-width: 1240px; } */
   
   .btn {
     cursor: pointer;
@@ -8692,15 +8692,15 @@
   .myaccordion .btn-link:focus {
     text-decoration: none; }
   
-  [data-toggle="collapse"] .fa:before {
+  /* [data-toggle="collapse"] .fa:before {
     content: "\f1fc";
     font-family: "Ionicons";
-    font-style: normal; }
-  
+    font-style: normal; } */
+/*   
   [data-toggle="collapse"].collapsed .fa:before {
     content: "\f102";
     font-family: "Ionicons";
-    font-style: normal; }
+    font-style: normal; } */
   
   .card-body ul {
     padding: 0; }
@@ -8714,9 +8714,10 @@
         .card-body ul li span:first-child {
           width: 60%; }
         .card-body ul li span:nth-child(2) {
-          width: 30%; }
+          width: 20%; }
         .card-body ul li span:last-child {
-          width: 11%; }
+          width: 20%; 
+          text-align: right;}
   
   .btn-custom {
     color: #fff;
